@@ -1,2 +1,3 @@
-puts "Hello, #{ARGV.first}!"
-sfbhfbsk
+name = ARGV.first || "World"
+
+puts "Hello, #{name}!"
